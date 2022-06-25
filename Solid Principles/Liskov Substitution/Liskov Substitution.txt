@@ -1,0 +1,11 @@
+﻿What is the Liskov Substitution Principle in C#?
+The Liskov Substitution Principle is a Substitutability principle in object-oriented programming Language. 
+This principle states that, if S is a subtype of T, then objects of type T should be replaced with the objects of type S.
+
+In simple words we can say that, when we have a base class and child class relationships i.e. inheritance relationships, then, if 
+we can successfully replace the object/instance of a parent class with an object/instance of the child class, without affecting the 
+behavior of the base class instance, then it is said to be in Liskov Substitution Principle. If you are not getting this point properly,
+don’t worry, we will see some real-time examples to understand this concept.
+
+For example, a father is a teacher whereas his son is a doctor. So here, in this case, the son can’t simply replace his father 
+even though both belong to the same family.

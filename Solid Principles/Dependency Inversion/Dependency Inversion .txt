@@ -1,0 +1,10 @@
+﻿1- What is the Dependency Inversion Principle in C#?
+The Dependency Inversion Principle (DIP) states that high-level modules/classes should not depend on low-level modules/classes.
+Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstractions.
+
+2- The most important point that you need to remember while developing real-time applications, always to try to keep the High-level module
+and Low-level module as loosely coupled as possible.
+
+3- When a class knows about the design and implementation of another class, it raises the risk that if we do any changes to one class will
+break the other class. So we must keep these high-level and low-level modules/classes loosely coupled as much as possible. To do that,
+we need to make both of them dependent on abstractions instead of knowing each other.

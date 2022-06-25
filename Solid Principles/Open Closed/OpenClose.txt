@@ -1,0 +1,29 @@
+﻿1- What is the Open-Closed Principle in C#?
+The Open-Closed Principle states that “software entities such as modules, classes, functions, etc. 
+should be open for extension, but closed for modification“.
+
+Let us understand the above definition in simple words. Here we need to understand two things. The first thing
+is Open for extension and the second thing is Closed for modification. The Open for extension means we need to
+design the software modules/classes in such a way that the new responsibilities or functionalities should be 
+added easily when new requirements come. On the other hand, Closed for modification means, we should not modify
+the class/module until we find some bugs.
+
+The reason for this is, we have already developed a class/module and it has gone through the unit testing phase.
+So we should not have to change this as it affects the existing functionalities. In simple words, we can say 
+that we should develop one module/class in such a way that it should allow its behavior to be extended without
+altering its source code.
+
+
+2- Problems of Not following the Open-Closed Principle in C#: 
+2.1- If you are not following the Open-Closed Principle during the application development process, then you
+may end up your application development with the following problems
+
+2.2- If you allow a class or function to add new logic then as a developer you need to test the entire 
+functionalities which include the old functionalities as well as new functionalities of the application.
+As a developer, it is also your responsibility to tell the QA (Quality Assurance) team about the changes in 
+advance so that they can prepare themselves in advance for regression testing along with the new feature 
+testing.
+2.3- If you are not following the Open-Closed Principle, then it also breaks the Single Responsibility Principle 
+as the class or module is going to perform multiple responsibilities.
+2.4- If you are implementing all the functionalities in a single class, then the maintenance of the class 
+becomes very difficult.
